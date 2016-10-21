@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Бильченко](https://up.htmlacademy.ru/htmlcss/15/user/291343).
-* Наставник: [Полина Немчак](https://htmlacademy.ru/profile/id69724).
+* Наставник: [Полина Немчак](https://up.htmlacademy.ru/htmlcss/15/user/69724).
 
 ---
 
