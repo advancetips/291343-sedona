@@ -129,6 +129,7 @@ li {
     width: 282px;
     margin-left: 73px;
     float: left;
+    background: url(../img/apartment-icon.png) no-repeat;
 }
 
 .real-benefit-2 {
@@ -136,6 +137,7 @@ li {
     width: 400px;
     margin-left: 46px;
     float: left;
+    background: url(../img/food-icon.png) no-repeat;
 }
 
 .real-benefit-3 {
@@ -143,6 +145,7 @@ li {
     width: 300px;
     margin-right: 55px;
     float: right;
+    background: url(../img/gift-icon.png) no-repeat;
 }
 
 .diablo-container   {
