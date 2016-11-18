@@ -1,3 +1,11 @@
+html,
+body {
+  min-width: 1280px;
+
+  margin: 0;
+  padding: 0;
+}
+
 body	{
 	font-weight: 700;
     font-size: 14px;
@@ -5,6 +13,9 @@ body	{
     font-family: "PT Sans Narrow", "Arial", sans-serif;
     color: #000000;
     text-transform: uppercase;
+
+
+    
 }
 
 
@@ -20,3 +31,297 @@ h3	{
     line-height: 21px;
     color: #000000;
 }
+
+li {
+    display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.main-header    {
+
+}
+
+.container  {
+    width: 1056px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.main-navigation-left    {
+    min-height: 56px;
+    width: 350px;
+    float: left;
+    padding: 0 10px;
+}
+
+.main-navigation-right    {
+    min-height: 56px;
+    width: 350px;
+    float: right;
+    padding: 0 10px;
+}
+
+.logo   {
+    width: 138px;
+    min-height: 56px;
+    float: left;
+    margin-left: 89px;
+    background-image: url("../img/logo.jpg");
+    
+}
+
+.slider-container   {
+    width: 1200px;
+    height: 508px;
+    margin: 0 auto;
+    background-image: url("../img/sedona-slider.jpg");
+}
+
+.slider-slogan  {
+    width: 458px;
+    height: 352;
+    margin: 0 auto;
+    padding-top: 76px;
+}
+
+.page-slogan    {
+    width: 490px;
+    min-height: 95px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.real-town-container    {
+    min-height: 256px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+.real-town-text {
+    min-height: 256px;
+    float: left;
+    width: 400px;
+}
+
+.real-town-image {
+    min-height: 256px;
+    float: right;
+    width: 799px;
+}
+
+.real-town-benefits {
+    min-height: 195px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+.real-benefit-1 {
+    min-height: 195px;
+    width: 282px;
+    margin-left: 73px;
+    float: left;
+}
+
+.real-benefit-2 {
+    min-height: 195px;
+    width: 400px;
+    margin-left: 46px;
+    float: left;
+}
+
+.real-benefit-3 {
+    min-height: 195px;
+    width: 300px;
+    margin-right: 55px;
+    float: right;
+}
+
+.diablo-container   {
+    min-height: 256px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.diablo-text {
+    min-height: 256px;
+    float: right;
+    width: 400px;
+}
+
+.diablo-image {
+    min-height: 256px;
+    float: left;
+    width: 799px;
+}
+
+.diablo-benefits {
+    min-height: 195px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.diablo-benefit-1 {
+    min-height: 195px;
+    width: 282px;
+    margin-left: 73px;
+    float: left;
+}
+
+.diablo-benefit-2 {
+    min-height: 195px;
+    width: 400px;
+    margin-left: 46px;
+    float: left;
+}
+
+.diablo-benefit-3 {
+    min-height: 195px;
+    width: 300px;
+    margin-right: 55px;
+    float: right;
+}
+
+.interested-container   {
+    width: 1200px;
+    min-height: 292px;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.interested-content   {
+    width: 570px;
+    min-height: 292px;
+    margin: 0 auto;
+}
+
+.map-and-footer {
+    width: 1200px;
+    min-height: 593px;
+    margin: 0 auto;
+    background: url("../img/map.jpg");
+}
+
+.map {
+    width: 1200px;
+    min-height: 473px;
+}
+
+.footer {
+    width: 1200px;
+    min-height: 47px;
+    padding-top: 38px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+}
+
+.footer-hashtag {
+    width: 144px;
+    float: left;
+    min-height: 48px;
+    margin-left: 128px;
+
+}
+
+.footer-social  {
+    width: 150px;
+    float: left;
+    min-height: 48px;
+    margin-left: 252px;
+}
+
+.footer-credits {
+    width: 241px;
+    float: right;
+    min-height: 48px;
+    margin-right: 73px;
+}
+
+
+/* ============ hotel search ============== */
+
+.hotel-slider-container {
+    width: 1054px;
+    padding: 31px 73px;
+    margin: 0 auto;
+    background-image: url("../img/hotel-search-background.jpg");
+}
+
+.filter-infrastructure   {
+    float: left;
+    width: 241px;
+    min-height: 155px;
+    
+}
+
+.filter-appartment-type   {
+    float: left;
+    width: 288px;
+    min-height: 155px;
+    
+}
+
+.filter-price-range {
+    float: right;
+    width: 328px;
+    min-height: 155px;
+}
+
+.search-results-title   {
+    width: 1054px;
+    padding: 32px 73px;
+    margin: 0 auto;
+}
+
+.finded-plus-sort-by    {
+   float: left;
+    width: 528px;
+    min-height: 22px; 
+}
+
+.ascend-descend-search-results  {
+    float: right;
+    width: 38px;
+    min-height: 22px;
+}
+
+.search-result-item {
+    width: 1054px;
+    padding: 31px 73px;
+    margin: 0 auto;
+}
+
+.hotel-image-preview    {
+    float: left;
+    width: 135px;
+    min-height: 90px;
+}
+
+.name-price-buttons {
+    float: left;
+    width: 363px;
+    min-height: 90px;
+    margin-left: 30px;
+}
+
+.stars-rating   {
+    float: right;
+    width: 110px;
+    min-height: 90px;
+}
+
