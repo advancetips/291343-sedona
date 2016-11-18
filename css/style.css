@@ -74,6 +74,7 @@ li {
 }
 
 .logo   {
+    display: block;
     width: 138px;
     min-height: 56px;
     float: left;
@@ -83,15 +84,12 @@ li {
 }
 
 .slider-container   {
-    width: 1200px;
     height: 508px;
-    margin: 0 auto;
     background-image: url("../img/sedona-slider.jpg");
 }
 
 .slider-slogan  {
     width: 458px;
-    height: 352;
     margin: 0 auto;
     padding-top: 76px;
 }
@@ -99,14 +97,13 @@ li {
 .page-slogan    {
     width: 490px;
     min-height: 95px;
+    text-align: center;
     margin: 0 auto;
     margin-top: 65px;
 }
 
 .real-town-container    {
     min-height: 256px;
-    width: 1200px;
-    margin: 0 auto;
     margin-top: 56px;
 }
 
@@ -124,8 +121,6 @@ li {
 
 .real-town-benefits {
     min-height: 195px;
-    width: 1200px;
-    margin: 0 auto;
     margin-top: 56px;
 }
 
@@ -152,8 +147,6 @@ li {
 
 .diablo-container   {
     min-height: 256px;
-    width: 1200px;
-    margin: 0 auto;
     margin-top: 80px;
 }
 
@@ -171,8 +164,6 @@ li {
 
 .diablo-benefits {
     min-height: 195px;
-    width: 1200px;
-    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -198,9 +189,7 @@ li {
 }
 
 .interested-container   {
-    width: 1200px;
     min-height: 292px;
-    margin: 0 auto;
     margin-top: 41px;
 }
 
@@ -211,9 +200,7 @@ li {
 }
 
 .map-and-footer {
-    width: 1200px;
     min-height: 593px;
-    margin: 0 auto;
     background: url("../img/map.jpg");
 }
 
@@ -223,11 +210,9 @@ li {
 }
 
 .footer {
-    width: 1200px;
     min-height: 47px;
     padding-top: 38px;
     padding-bottom: 35px;
-    margin: 0 auto;
 }
 
 .footer-hashtag {
@@ -252,13 +237,26 @@ li {
     margin-right: 73px;
 }
 
+.website-by {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.htmlacademy    {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 /* ============ hotel search ============== */
 
+.margin-auto    {
+        width: 1054px;
+        margin: 0 auto;
+}
+
 .hotel-slider-container {
-    width: 1054px;
     padding: 31px 73px;
-    margin: 0 auto;
     background-image: url("../img/hotel-search-background.jpg");
 }
 
@@ -283,9 +281,7 @@ li {
 }
 
 .search-results-title   {
-    width: 1054px;
     padding: 32px 73px;
-    margin: 0 auto;
 }
 
 .finded-plus-sort-by    {
@@ -301,9 +297,7 @@ li {
 }
 
 .search-result-item {
-    width: 1054px;
     padding: 31px 73px;
-    margin: 0 auto;
 }
 
 .hotel-image-preview    {
