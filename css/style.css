@@ -18,6 +18,34 @@ body	{
     
 }
 
+.main-navigation-left a,
+.main-navigation-right a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-navigation-left a:hover,
+.main-navigation-right a:hover {
+    color: #81b3d2;
+    text-decoration: none;
+}
+
+.main-navigation-left li,
+.main-navigation-right li {
+    display: inline-block;
+    float: left;
+}
+
+.main-navigation-left li:last-child,
+.main-navigation-right li:last-child {
+    display: inline-block;
+    float: right;
+}
+
+.page-slogan p {
+    font-weight: 400;
+
+}
 
 h2	{
 
@@ -32,7 +60,11 @@ h3	{
     color: #000000;
 }
 
-li {
+.main-header li {
+    display: inline-block;
+}
+
+.sort-type li {
     display: inline-block;
 }
 
@@ -44,8 +76,10 @@ li {
 }
 
 .main-container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
     
 }
 
@@ -75,10 +109,13 @@ li {
 
 .logo   {
     display: block;
+    position: absolute;
+    left: 50%;
+    right: 50%;
     width: 138px;
     min-height: 56px;
-    float: left;
-    margin-left: 89px;
+    margin-left: -69px;
+    
     background-image: url("../img/logo.jpg");
     
 }
@@ -95,7 +132,7 @@ li {
 }
 
 .page-slogan    {
-    width: 490px;
+    width: 555px;
     min-height: 95px;
     text-align: center;
     margin: 0 auto;
@@ -108,15 +145,26 @@ li {
 }
 
 .real-town-text {
-    min-height: 256px;
+    
     float: left;
     width: 400px;
+    padding-top: 31px;
+    padding-bottom: 32px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.real-town-text h2  {
+    color: #ffffff;
 }
 
 .real-town-image {
     min-height: 256px;
     float: right;
-    width: 799px;
+    width: 800px;
 }
 
 .real-town-benefits {
@@ -124,28 +172,42 @@ li {
     margin-top: 56px;
 }
 
+.real-town-benefits p {
+    font-weight: 400;
+}
+
 .real-benefit-1 {
     min-height: 195px;
     width: 282px;
     margin-left: 73px;
+    padding-top: 75px;
     float: left;
+    text-align: center;
     background: url(../img/apartment-icon.png) no-repeat;
+    background-position: center top;
+    
 }
 
 .real-benefit-2 {
     min-height: 195px;
     width: 400px;
     margin-left: 46px;
+    padding-top: 75px;
     float: left;
+    text-align: center;
     background: url(../img/food-icon.png) no-repeat;
+    background-position: center top;
 }
 
 .real-benefit-3 {
     min-height: 195px;
-    width: 300px;
+    width: 310px;
     margin-right: 55px;
+    padding-top: 75px;
     float: right;
+    text-align: center;
     background: url(../img/gift-icon.png) no-repeat;
+    background-position: center top;
 }
 
 .diablo-container   {
@@ -154,9 +216,19 @@ li {
 }
 
 .diablo-text {
-    min-height: 256px;
     float: right;
     width: 400px;
+    padding-top: 31px;
+    padding-bottom: 32px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.diablo-text h2  {
+    color: #ffffff;
 }
 
 .diablo-image {
@@ -167,7 +239,14 @@ li {
 
 .diablo-benefits {
     min-height: 195px;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+}
+
+.diablo-benefits p,
+.diablo-benefits span {
+    font-weight: 400;
 }
 
 .diablo-benefit-1 {
@@ -175,6 +254,7 @@ li {
     width: 282px;
     margin-left: 73px;
     float: left;
+    text-align: center;
 }
 
 .diablo-benefit-2 {
@@ -182,6 +262,7 @@ li {
     width: 400px;
     margin-left: 46px;
     float: left;
+    text-align: center;
 }
 
 .diablo-benefit-3 {
@@ -189,17 +270,45 @@ li {
     width: 300px;
     margin-right: 55px;
     float: right;
+    text-align: center;
 }
 
 .interested-container   {
-    min-height: 292px;
-    margin-top: 41px;
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 130px;
 }
 
 .interested-content   {
     width: 570px;
-    min-height: 292px;
     margin: 0 auto;
+    text-align: center;
+    
+}
+
+.interested-text p {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.interested-button  {
+    position: absolute;
+    width: 570px;
+    bottom: 0;
+    background-color: #766357;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.interested-button a {
+    color: #ffffff;
+}
+
+
+.hotel-search-btn   {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .map-and-footer {
@@ -210,27 +319,129 @@ li {
 .map {
     width: 1200px;
     min-height: 473px;
+    position: relative;
 }
 
+.hotel-search-form  {
+    
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 315px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 570px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.index-find {
+
+    display: inline-block;
+    width: 428px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #81b3d2;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.form-wrapper   {
+    position: relative;
+    width: 428px;
+    margin: 0 auto;
+
+}
+
+.label  {
+    float: left;
+    margin-bottom: 15px;
+    
+}
+
+.hsf input
+   {
+    float: right;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.adults {
+    position: absolute;
+    left: 0px;
+    bottom: 90px;
+}
+ 
+ .input-adults  {
+    width: 100px;
+    margin-left: 37px;
+ }
+
+ .kids {
+    position: absolute;
+    right: 0px;
+    bottom: 90px;
+
+}
+ 
+ .input-kids  {
+    width: 100px;
+    margin-left: 30px;
+ }
+    
+
+
 .footer {
-    min-height: 47px;
     padding-top: 38px;
     padding-bottom: 35px;
+    background-color: #f9fbf6;
+    opacity: 0.9;
 }
 
 .footer-hashtag {
+
     width: 144px;
     float: left;
-    min-height: 48px;
     margin-left: 128px;
+    font-size: 21px;
+    line-height: 26px;
+    padding-top: 10px;
 
 }
 
 .footer-social  {
-    width: 150px;
     float: left;
-    min-height: 48px;
     margin-left: 252px;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  margin: 0 2px;
+
+  font-size: 0;
+  vertical-align: top;
+  text-decoration: none;
+
+  background: #81b3d2 url("../img/sprite.png") no-repeat center;
+}
+
+.social-btn-tweeter {
+  background-position: -290px 13px;
+}
+
+.social-btn-fb {
+  background-position: 17px 13px;
+}
+
+.social-btn-youtube {
+  background-position: -368px 13px;
 }
 
 .footer-credits {
@@ -243,11 +454,15 @@ li {
 .website-by {
     display: inline-block;
     vertical-align: middle;
+    font-weight: 400;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .htmlacademy    {
     display: inline-block;
     vertical-align: middle;
+    padding-top: 5px;
 }
 
 
@@ -285,12 +500,18 @@ li {
 
 .search-results-title   {
     padding: 32px 73px;
+    border-bottom: 1px solid lightgray;
 }
 
 .finded-plus-sort-by    {
    float: left;
     width: 528px;
     min-height: 22px; 
+    font-weight: 400;
+}
+
+.items-finded, .sort-by, .sort-type {
+    display: inline-block;
 }
 
 .ascend-descend-search-results  {
@@ -301,6 +522,8 @@ li {
 
 .search-result-item {
     padding: 31px 73px;
+    border-bottom: 1px solid lightgray;
+    font-weight: 400;
 }
 
 .hotel-image-preview    {
